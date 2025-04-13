@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+}
+img:hover{
+    opacity: 0.5;
+}
+#msg{
+    height: 20px;
+    width: 220px;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+.score-board{
+    margin-left: 100px;
+    display: flex;
+    gap: 2rem;
+}
